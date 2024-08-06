@@ -4,16 +4,15 @@
 }
 
 body {
-  height: 5000px;
-  padding-top: 60px;
+  padding-top: 72px;
   font-family: "DM Sans", sans-serif;
 }
 
 .serifont {
   font-family: "DM Serif Display", serif;
   font-weight: 550;
-  font-size: 3rem;
-  color: #092d66;
+  text-align: center;
+  color: #1e293b;
 }
 
 .hero {
@@ -22,4 +21,193 @@ body {
 
 .colour-overlay {
   background-color: rgba(172, 194, 255, 0.9);
+}
+
+.nb {
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.03);
+}
+
+.logo {
+  width: 115px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.nav-link {
+  color: rgb(53, 56, 72);
+  font-size: 14px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  line-height: 20px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-button {
+  color: #0032e6;
+  font-size: 14px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: rgba(172, 194, 255, 0.6);
+  padding: 0.5rem;
+}
+
+.nav-button:hover {
+  background-color: #0032e6;
+  color: white;
+  transform: translateY(-2px);
+  transition: 0.5s ease-in-out;
+  text-decoration: none;
+}
+
+.nav {
+  padding: 3rem;
+}
+
+.search {
+  background-color: #0032e6;
+  color: white;
+}
+
+.search:hover {
+  background-color: #002197;
+  transform: translateY(-2px);
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+input {
+  margin-left: 1rem;
+  border: 0px solid;
+  outline: none;
+}
+
+.icon {
+  color: rgb(113, 113, 112);
+}
+
+.icon1 {
+  color: #283058;
+}
+
+.dpm {
+  font-size: 14px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(226, 234, 255, 0.6);
+  color: #0032e6;
+  transition: 0.1s ease-in;
+}
+
+.trials {
+  text-decoration: none;
+  color: #283058;
+  font-size: 14px;
+}
+
+.trbtn {
+  padding: 0.7rem;
+  margin-left: 1.5rem;
+}
+
+.trbtn:hover {
+  background-color: rgba(226, 234, 255, 0.6);
+}
+
+.trials:hover {
+  text-decoration: underline;
+  color: rgb(0, 0, 167);
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.slider {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.slide-track {
+  animation: 20s slide infinite linear;
+  width: fit-content;
+}
+
+.slide img {
+  height: 50px;
+  margin: 3rem;
+}
+
+.searchy {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.searchy:hover {
+  text-decoration: underline;
+  color: #0032e6;
+}
+
+.card-img {
+  height: 6.5rem;
+  width: 10rem;
+  border-radius: 15px;
+}
+
+.card1 {
+  width: 800px;
+  padding: 1.5rem;
+  padding-bottom: 1rem;
+  border-radius: 15px;
+  color: #283058;
+}
+
+.card1:hover {
+  background-color: rgba(238, 238, 238, 0.8);
+  scale: 1.01;
+  transition: 0.2s ease-in-out;
+}
+
+.card-title {
+  text-decoration: none;
+}
+
+.card-title:hover {
+  color: #00219a;
+  text-decoration: underline;
+}
+
+footer {
+  background-image: linear-gradient(#2d3a7c, #1c1d25);
+}
+
+.footer-color {
+  color: #ffffff73;
+  text-decoration: none;
+  padding: 0.5rem;
+  padding-left: 0%;
+}
+
+.footer-color:hover {
+  text-decoration: underline;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+
+.ft-logo {
+  width: 115px;
 }
