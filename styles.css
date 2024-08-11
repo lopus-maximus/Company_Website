@@ -2,3 +2,24 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  height: 5000px;
+  padding-top: 60px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.serifont {
+  font-family: "DM Serif Display", serif;
+  font-weight: 550;
+  font-size: 3rem;
+  color: #092d66;
+}
+
+.hero {
+  background-image: url(https://www.trialx.com/static/assets/images/noise.png);
+}
+
+.colour-overlay {
+  background-color: rgba(172, 194, 255, 0.9);
+}
